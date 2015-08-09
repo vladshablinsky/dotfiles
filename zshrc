@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/vlad/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 HOMEBREW_EDITOR=vim
 export HOMEBREW_EDITOR
