@@ -122,8 +122,8 @@ nmap <S-Tab> :bprevious<CR>
 nmap <leader>bq :bp <BAR> bd #<CR>
 nmap <leader>bl :ls<CR>
 
-nmap <silent> <leader>p <CR><Plug>NERDTreeTabsToggle<CR>
-nmap <silent> <leader>[ <CR><Plug>NERDTreeFocusToggle<CR>
+nmap <leader>p <Plug>NERDTreeTabsToggle<CR>
+nmap <leader>[ <Plug>NERDTreeFocusToggle<CR>
 inoremap <silent><S-Tab> <C-o><<
 inoremap <F3> <C-o>n
 inoremap <S-F3> <C-o>N
@@ -160,7 +160,7 @@ let g:hardtime_maxcount=5
 
 autocmd Vimenter * IndentGuidesEnable
 
-" ================== ycm settigs ==============
+" ================== ycm settings ==============
 " let g:ycm_error_symbol=">>"
 " let g:ycm_warning_symbol="!!"
 " let g:ycm_allow_changing_update_time=1
