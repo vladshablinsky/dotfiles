@@ -49,7 +49,19 @@ nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
 filetype plugin on
 filetype indent on
+" =========== trailing spaces ============
+function TrimWhiteSpace()
+  %s/\s*$//
+  ''
+endfunction
 
+autocmd FileWritePre *.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd FileAppendPre *.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd FilterWritePre *.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd BufWritePre *.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+
+map <F2> :call TrimWhiteSpace()<CR>
+map! <F2> :call TrimWhiteSpace()<CR>
 " =============== search ==================
 set incsearch
 set ignorecase
