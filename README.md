@@ -12,7 +12,7 @@ $ sudo mv reattach-to-user-namespace /usr/local/bin
 ```
 
 ```shell
-$ git clone https://github.com/vladshablinsky/dotfiles.git ~/dotfiles
+$ git clone --recursive https://github.com/vladshablinsky/dotfiles.git ~/dotfiles
 $ cd ~/dotfiles
 $ ./install.sh
 ```
