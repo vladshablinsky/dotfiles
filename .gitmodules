@@ -1,0 +1,84 @@
+[submodule "vim/bundle/Vundle.vim"]
+	path = vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim
+[submodule "vim/bundle/vim-endwgit"]
+	path = vim/bundle/vim-endwgit
+	url = https://github.com/tpope/vim-endwise
+[submodule "vim/bundle/auto-pairs"]
+	path = vim/bundle/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "vim/bundle/bufkill.vim"]
+	path = vim/bundle/bufkill.vim
+	url = https://github.com/vim-scripts/bufkill.vim
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "vim/bundle/ruby-matchit"]
+	path = vim/bundle/ruby-matchit
+	url = https://github.com/vim-scripts/ruby-matchit
+[submodule "vim/bundle/splitjoin.vim"]
+	path = vim/bundle/splitjoin.vim
+	url = https://github.com/AndrewRadev/splitjoin.vim
+[submodule "vim/bundle/tagbar"]
+	path = vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar
+[submodule "vim/bundle/vim-addon-local-vimrc"]
+	path = vim/bundle/vim-addon-local-vimrc
+	url = https://github.com/MarcWeber/vim-addon-local-vimrc
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "vim/bundle/vim-easy-align"]
+	path = vim/bundle/vim-easy-align
+	url = https://github.com/junegunn/vim-easy-align
+[submodule "vim/bundle/vim-easymotion"]
+	path = vim/bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vim/bundle/vim-gitgutter"]
+	path = vim/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "vim/bundle/vim-hardtime"]
+	path = vim/bundle/vim-hardtime
+	url = https://github.com/takac/vim-hardtime
+[submodule "vim/bundle/vim-indent-guides"]
+	path = vim/bundle/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown
+[submodule "vim/bundle/vim-nerdtree-tabs"]
+	path = vim/bundle/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs
+[submodule "vim/bundle/vim-numbertoggle"]
+	path = vim/bundle/vim-numbertoggle
+	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle
+[submodule "vim/bundle/vim-repeat"]
+	path = vim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "vim/bundle/vim-ruby"]
+	path = vim/bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby
+[submodule "vim/bundle/vim-smooth-scroll"]
+	path = vim/bundle/vim-smooth-scroll
+	url = https://github.com/terryma/vim-smooth-scroll
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "vim/bundle/vim-unimpaired"]
+	path = vim/bundle/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired
+[submodule "vim/bundle/vim-xkbswitch"]
+	path = vim/bundle/vim-xkbswitch
+	url = https://github.com/lyokha/vim-xkbswitch
