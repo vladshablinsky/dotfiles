@@ -26,3 +26,9 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%}"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/vlad/google-cloud-sdk/path.zsh.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/Users/vlad/google-cloud-sdk/completion.zsh.inc'
