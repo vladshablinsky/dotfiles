@@ -55,10 +55,10 @@ function TrimWhiteSpace()
   ''
 endfunction
 
-autocmd FileWritePre *.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
-autocmd FileAppendPre *.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
-autocmd FilterWritePre *.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
-autocmd BufWritePre *.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd FileWritePre *.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd FileAppendPre *.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd FilterWritePre *.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd BufWritePre *.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
 
 map <F2> :call TrimWhiteSpace()<CR>
 map! <F2> :call TrimWhiteSpace()<CR>
@@ -183,10 +183,10 @@ autocmd Vimenter * IndentGuidesEnable
 " autocmd FileType c nnoremap <buffer> <silent> <C-]> :YcmCompleter GoTo<cr>
 
 " ================= smoothscroll ============
-noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 0, 2)<CR>
-noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 0, 2)<CR>
-noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
-noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
+noremap <silent> <c-u> :call smooth_scroll#up  (&scroll,   10, 2)<CR>
+noremap <silent> <c-d> :call smooth_scroll#down(&scroll,   10, 2)<CR>
+noremap <silent> <c-b> :call smooth_scroll#up  (&scroll*2, 10, 4)<CR>
+noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 4)<CR>
 
 " ================== easymotion =============
 map <Leader> <Plug>(easymotion-prefix)
