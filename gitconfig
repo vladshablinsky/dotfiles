@@ -3,7 +3,7 @@
 	smudge = git hawser smudge %f
 	required = true
 [user]
-	name = Vlad Shablinsky
+	name = Uladzislau Shablinski
 	email = vladshablinsky@gmail.com
 [core]
 	editor = vim
