@@ -12,8 +12,12 @@ DISABLE_AUTO_TITLE="true"
 
 plugins=(git)
 # plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/Users/vlad/.rvm/bin:/Users/vlad/.rvm/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/Users/vlad/.rvm/bin"
+export CXX=g++
+export CC=gcc
+
 source $ZSH/oh-my-zsh.sh
+fpath=(/usr/local/share/zsh/site-functions $fpath)
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 local ret_status="%(?:%{$fg_bold[yellow]%}➜ :%{$fg_bold[red]%}➜ %s)"
@@ -26,9 +30,3 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%}"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/vlad/google-cloud-sdk/path.zsh.inc'
-
-# The next line enables shell command completion for gcloud.
-source '/Users/vlad/google-cloud-sdk/completion.zsh.inc'
