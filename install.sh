@@ -3,7 +3,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="zshrc vimrc tmux.conf oh-my-zsh"
+files="zshrc vimrc vim gitconfig tmux.conf oh-my-zsh"
 
 echo "Creating $olddir for backup of any dotfiles in ~"
 mkdir -p $olddir
@@ -11,7 +11,9 @@ echo "...completed"
 
 cd $dir
 for file in $files; do
-  mv ~/.$file ~/dotfiles_old/
+  if [ -f $file ]; then
+    mv ~/.$file ~/dotfiles_old/
+  fi
   ln -s $dir/$file ~/.$file
 done
 
