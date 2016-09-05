@@ -1,9 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
-HOMEBREW_EDITOR=vim
-export HOMEBREW_EDITOR
-
 # case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -30,3 +27,8 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[blue]%}"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+
+# Homebrew
+export HOMEBREW_DEVELOPER=true
+export HOMEBREW_NO_AUTO_UPDATE=true
+export HOMEBREW_EDITOR=vim
