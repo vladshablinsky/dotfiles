@@ -55,10 +55,10 @@ function TrimWhiteSpace()
   ''
 endfunction
 
-autocmd FileWritePre *.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
-autocmd FileAppendPre *.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
-autocmd FilterWritePre *.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
-autocmd BufWritePre *.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd FileWritePre *.sh,*.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd FileAppendPre *.sh,*.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd FilterWritePre *.sh,*.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
+autocmd BufWritePre *.sh,*.c,*.cpp,*.rb,*.java,*.py :call TrimWhiteSpace()
 
 map <F2> :call TrimWhiteSpace()<CR>
 map! <F2> :call TrimWhiteSpace()<CR>
