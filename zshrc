@@ -32,3 +32,7 @@ export LANG=en_US.UTF-8
 export HOMEBREW_DEVELOPER=true
 export HOMEBREW_NO_AUTO_UPDATE=true
 export HOMEBREW_EDITOR=vim
+export PATH="/usr/local/sbin:$PATH"
+# Fun shit to export
+export CDPATH=~/Projects
+source ~/.brew_scripts

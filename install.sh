@@ -3,7 +3,7 @@
 
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="zshrc vimrc vim gitconfig tmux.conf oh-my-zsh"
+files="zshrc vimrc vim gitconfig tmux.conf oh-my-zsh brew_scripts brew_livecheck_watchlist"
 
 echo "Creating $olddir for backup of any dotfiles in ~"
 mkdir -p $olddir
