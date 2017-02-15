@@ -2,6 +2,8 @@ set nocompatible
 filetype off                  " required
 
 " ================= general ===============
+scriptencoding utf-8
+set encoding=utf-8
 set secure
 set number
 set backspace=2
