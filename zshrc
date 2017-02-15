@@ -18,7 +18,13 @@ fpath=(/usr/local/share/zsh/site-functions $fpath)
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 local ret_status="%(?:%{$fg_bold[yellow]%}➜ :%{$fg_bold[red]%}➜ %s)"
-PROMPT='${ret_status}%{$fg_no_bold[green]%}%n:%c$ %{$reset_color%}'
+
+if [ -z "$SSH_CLIENT"  ]; then
+  PROMPT='${ret_status}%{$fg_no_bold[green]%}%n:%c$ %{$reset_color%}'
+else
+  PROMPT='${ret_status}%{$fg_no_bold[magenta]%}%n:%c$ %{$reset_color%}'
+fi
+
 RPROMPT='$(git_prompt_info)'
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
