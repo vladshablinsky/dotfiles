@@ -38,7 +38,12 @@ export LANG=en_US.UTF-8
 export HOMEBREW_DEVELOPER=true
 export HOMEBREW_NO_AUTO_UPDATE=true
 export HOMEBREW_EDITOR=vim
-export PATH="/usr/local/sbin:$PATH"
+
+# API Tokens
+if [ -f ~/.sectets ]; then
+  source ~/.secrets
+fi
+
 # Fun shit to export
-export CDPATH=~/Projects
+export CDPATH=~/Projects:~/projects
 source ~/.brew_scripts
