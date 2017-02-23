@@ -22,7 +22,7 @@ local ret_status="%(?:%{$fg_bold[yellow]%}➜ :%{$fg_bold[red]%}➜ %s)"
 if [ -z "$SSH_CLIENT"  ]; then
   PROMPT='${ret_status}%{$fg_no_bold[green]%}%n:%c$ %{$reset_color%}'
 else
-  PROMPT='${ret_status}%{$fg_no_bold[magenta]%}%n:%c$ %{$reset_color%}'
+  PROMPT='${ret_status}%{$fg_no_bold[blue]%}%n:%c$ %{$reset_color%}'
 fi
 
 RPROMPT='$(git_prompt_info)'
@@ -40,7 +40,7 @@ export HOMEBREW_NO_AUTO_UPDATE=true
 export HOMEBREW_EDITOR=vim
 
 # API Tokens
-if [ -f ~/.sectets ]; then
+if [ -f ~/.secrets ]; then
   source ~/.secrets
 fi
 
